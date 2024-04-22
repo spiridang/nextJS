@@ -1,0 +1,17 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "description": "Next.js — фреймворк на JavaScript, использующий React для построения Server Side Render-приложений (SSR) и статически-генерируемых сайтов. Наставник Хекслета Глеб Андреев рассказывает, кто создал Next.js, зачем его использовать и в чем его плюсы и минусы перед чистым React. История Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^14.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
