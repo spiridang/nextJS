@@ -1,15 +1,20 @@
 import Link from "next/link";
+import A from "../components/A";
 
 const index = () => {
   return (
     <div>
-      <Link href="/">
-        <a>Main</a>
-      </Link>
-      <Link href="/users">
-        <a>Users</a>
-      </Link>
+      <div className="navbar">
+        <A href={"/"} text="main" />
+        <A href={"/users"} text="users" />
+      </div>
       <h1>Main Page</h1>
+      <style jsx>{`
+        .navbar {
+          background: orange;
+          padding: 15px;
+        }
+      `}</style>
     </div>
   );
 };
