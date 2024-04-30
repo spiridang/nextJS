@@ -1,21 +1,12 @@
-import Link from "next/link";
-import A from "../components/A";
+import MainContainer from "../components/MainContainer";
 
 const index = () => {
   return (
-    <div>
-      <div className="navbar">
-        <A href={"/"} text="main" />
-        <A href={"/users"} text="users" />
+    <MainContainer>
+      <div>
+        <h1>Main Page</h1>
       </div>
-      <h1>Main Page</h1>
-      <style jsx>{`
-        .navbar {
-          background: orange;
-          padding: 15px;
-        }
-      `}</style>
-    </div>
+    </MainContainer>
   );
 };
 
